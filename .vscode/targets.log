@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  8 15:03:01 2022
+# Make data base, printed on Wed Jun  8 16:05:11 2022
 
 # Variables
 
@@ -53,7 +55,7 @@ PATH = /home/johngalt/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-abef66b3-1009-4f0c-9009-c21504968085.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-584be14a-d2ec-4656-840c-f43476a25323.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +69,7 @@ PWD = /home/johngalt/frontend-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/714_interop
+WSL_INTEROP = /run/WSL/1974_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -225,8 +227,6 @@ install:
 # strcache performance: lookups = 32 / hit rate = 25%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Wed Jun  8 15:03:01 2022
+# Finished Make data base on Wed Jun  8 16:05:11 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-
