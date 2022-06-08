@@ -9,10 +9,4 @@ extends:
 parserOptions:
   ecmaVersion: latest
 
-Правила:
-  no-console: 0
-  импорт / расширения: # FIXME: удалить, когда правило будет скорректировано для новой версии nodejs
- - ошибка
-    - ignorePackages
-    - js: always
-  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+Правила: {}
