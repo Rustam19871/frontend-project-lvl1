@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun  8 16:05:11 2022
+# Make data base, printed on Wed Jun  8 16:29:08 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ PATH = /home/johngalt/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-584be14a-d2ec-4656-840c-f43476a25323.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-063f52cd-6c84-4ab0-86a0-139826bdc76e.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -69,7 +69,7 @@ PWD = /home/johngalt/frontend-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/1974_interop
+WSL_INTEROP = /run/WSL/3129_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -79,7 +79,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = johngalt
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -227,6 +227,6 @@ install:
 # strcache performance: lookups = 32 / hit rate = 25%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/32=3%
-# Finished Make data base on Wed Jun  8 16:05:11 2022
+# Finished Make data base on Wed Jun  8 16:29:08 2022
 
  
