@@ -2,7 +2,7 @@ install:
 	npm ci
 start:
 	node bin/brain-games.js
-brain-even:
+brain-even;
 	node bin/brain-even.js
 lint:
 	npx eslint .
