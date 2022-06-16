@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import gameCondition from '../src/even.js';
+import userName from '../src/cli.js';
 
-console.log(`Hello ${gameCondition}!`);
+console.log(`Hello ${userName}!`);
