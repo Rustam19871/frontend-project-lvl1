@@ -2,16 +2,18 @@ import readlineSync from 'readline-sync';
 // Определение функции запроса имени
 const getName = () => readlineSync.question('May I have your name?');
 const userName = getName();
+
 // Определение функции приветствия
 export const greeting = () => {
   console.log('Welcome to the Brain Games!');
   console.log(`Hello, ${userName}!`);
 };
+
 // Определение функции, дающее рандомное целое число
-const getRandomInt = (max) => {
-    return Math.floor(Math.random() * max);
-};
+const getRandomInt = (max) => Math.floor(Math.random() * max);
+
 // Определение функции игры на четность
+// eslint-disable-next-line consistent-return
 export const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
