@@ -3,3 +3,6 @@ make: Entering directory '/home/johngalt/frontend-project-lvl1'
 npm ci
 make: Leaving directory '/home/johngalt/frontend-project-lvl1'
  
+Makefile:6: warning: overriding recipe for target 'start'
+Makefile:4: warning: ignoring old recipe for target 'start'
+
