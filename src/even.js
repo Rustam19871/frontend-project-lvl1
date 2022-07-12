@@ -1,24 +1,14 @@
-import readlineSync from 'readline-sync';
-// Определение функции приветствия
-export const greeting = () => {
-    console.log('Welcome to the Brain Games!');
-    console.log(`Hello, ${userName}!`);
-  };
-
-// Определение функции запроса имени
-const getName = () => readlineSync.question('May I have your name?');
-const userName = getName();
-
 // Определение функции, дающее рандомное целое число
 const getRandomInt = (max) => Math.floor(Math.random() * max);
 
 // Определение функции игры на четность
-// eslint-disable-next-line consistent-return
+// eslint-disable-next-line consistent-return, import/prefer-default-export
 export const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const number = getRandomInt(100);
     console.log('Question: ', number);
+    // eslint-disable-next-line no-undef
     const answerUser = readlineSync.question('Your answer: ');
     const checking1 = (number % 2 === 0) && (answerUser === 'yes');
     const checking2 = (number % 2 !== 0) && (answerUser === 'no');
@@ -30,5 +20,6 @@ export const evenGame = () => {
       return errorMessage;
     }
   }
+  // eslint-disable-next-line no-undef
   console.log(`Congratulations, ${userName}!`);
 };
