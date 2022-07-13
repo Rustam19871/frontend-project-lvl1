@@ -21,5 +21,3 @@ export const evenGame = () => {
       return errorMessage;
     }
   }
-  console.log(`Congratulations, ${userName}!`);
-};

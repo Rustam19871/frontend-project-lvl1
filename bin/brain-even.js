@@ -10,3 +10,5 @@ const userName = readlineSync.question('May I have your name? ');
 import { evenGame } from '../src/even.js';
 
 evenGame();
+
+console.log(`Congratulations, ${userName}!`);
