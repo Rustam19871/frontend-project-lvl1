@@ -1,4 +1,7 @@
 #!/usr/bin/env node
-import userName from '../src/cli.js';
+// eslint-disable-next-line import/extensions, import/no-unresolved
+import { welcome, greeting, question } from '../index';
 
-console.log(`Hello ${userName}!`);
+welcome();
+greeting();
+question();
