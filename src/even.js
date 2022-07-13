@@ -1,3 +1,4 @@
+import readlineSync from 'readline-sync';
 // Определение функции запроса имени
 const getName = () => readlineSync.question('May I have your name?');
 const userName = getName();
