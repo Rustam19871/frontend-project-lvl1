@@ -1,7 +1,9 @@
 #!/usr/bin/env node
+import userName from '../src/cli.js';
 
-import { welcome, greeting, question } from '../index';
+// eslint-disable-next-line import/named
+import { evenGame } from '../src/even.js';
 
-welcome();
-greeting();
-question();
+console.log(`Hello ${userName}!`);
+
+evenGame();
