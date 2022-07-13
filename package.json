@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Rustam19871/frontend-project-lvl1#readme",
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
-    "make": "^0.8.1",
+    "make": "^0.0.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
