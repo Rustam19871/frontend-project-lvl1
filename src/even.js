@@ -4,11 +4,9 @@ import readlineSync from 'readline-sync';
 export const greeting = () => {
   console.log('Welcome to the Brain Games!');
   console.log(`Hello, ${userName}!`);
+  const getName = () => readlineSync.question('May I have your name?');
+  const userName = getName();
 };
-
-// Определение функции запроса имени
-const getName = () => readlineSync.question('May I have your name?');
-const userName = getName();
 
 // Определение функции, дающее рандомное целое число
 const getRandomInt = (max) => Math.floor(Math.random() * max);
