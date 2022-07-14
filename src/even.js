@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
 
 // Определение функции запроса имени
-export const getName = () => readlineSync.question('May I have your name?');
+const getName = () => readlineSync.question('May I have your name?');
 const userName = getName();
-console.log(`Hello, ${userName}!`);
 
 // Определение функции приветствия
 export const greeting = () => {
   console.log('Welcome to the Brain Games!');
+  console.log(`Hello, ${userName}!`);
 };
 
 // Определение функции, дающее рандомное целое число
