@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-import { greeting, evenGame } from '../src/even.js';
+import userName from '../src/cli.js';
 
-greeting();
+import { evenGame } from '../src/even.js';
+
+console.log(`Hello ${userName}!`);
+
 evenGame();
