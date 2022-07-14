@@ -6,4 +6,5 @@ import { evenGame } from '../src/even.js';
 
 console.log('Welcome to the Brain Games!');
 
+greeting();
 evenGame();
