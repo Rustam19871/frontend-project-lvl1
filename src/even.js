@@ -7,7 +7,7 @@ const userName = getName();
 const getRandomInt = (max) => Math.floor(Math.random() * max);
 
 // Определение функции игры на четность
-// eslint-disable-next-line consistent-return
+// eslint-disable-next-line consistent-return, import/prefer-default-export
 export const evenGame = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
